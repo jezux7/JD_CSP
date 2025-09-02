@@ -1,10 +1,20 @@
-# examples of variables
-School = "UCAS"
-single_digit = 4
-
-how_much = 10
-print(how_much)
-
-how_much = 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
-
-print(how_much)
+your_name = "jesus"
+print:(your_name)
+one_digit = "7"
+print(one_digit)
+two_digit = "13"
+print(two_digit)
+breakfast = "arepas"
+print(breakfast)
+fav_color = "white"
+print(fav_color)
+school = "UCAS"
+print(school)
+year = "2025"
+print(year)
+eye_color = "brown"
+print(eye_color)
+age = "14"
+print(age)
+subject = "CS"
+print(subject)
