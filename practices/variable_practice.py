@@ -18,3 +18,6 @@ age = "14"
 print(age)
 subject = "CS"
 print(subject)
+
+
+print(fav_sub)
