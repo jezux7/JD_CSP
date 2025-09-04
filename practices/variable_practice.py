@@ -19,5 +19,7 @@ print(age)
 subject = "CS"
 print(subject)
 
-
+fav_sub = 8
+big_num = 77
 print(fav_sub)
+print(big_num)
