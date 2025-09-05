@@ -7,9 +7,9 @@
 # Transportation
 
 Income = input("How much money you got for moth")
-input("How much is your rent?")
-input("How much you pay in utilities?")
-input("How much you spent on groceries?")
-input("Gow much you pay in trasportation?")
+Rent = input("How much is your rent?")
+utilities = input("How much you pay in utilities?")
+Groceries = input("How much you spent on groceries?")
+Transportation = input("Gow much you pay in trasportation?")
 
-Spend = income -()
+Spend = Income -(Income+Rent+utilities+Groceries+Transportation)
