@@ -43,4 +43,4 @@ num_one %=  num_two
 # floats in program are numbers with decimals
 # Modulo = what is left of the division 
 
-# We learn to use expresions for be able to create better codes for the goverment
+# We learn to use expresions for be able to create better and more eficints codes
