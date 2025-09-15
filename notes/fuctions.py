@@ -52,4 +52,4 @@ print(f"Strenght: {roll(0)}\nDex: {roll(1)}\nInt: {roll(1)}\nhar: {roll(0)}")
 # is a fundamental programming command that terminates the execution of a function and sends a specified value back to the code that called it. 
 
 # How to use return statements in a program
-#Return statements are used in programming to exit a function and, optionally, send a value back to the code that called the function.SSSS
+#Return statements are used in programming to exit a function and, optionally, send a value back to the code that called the function.
