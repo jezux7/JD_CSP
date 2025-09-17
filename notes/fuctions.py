@@ -53,3 +53,5 @@ print(f"Strenght: {roll(0)}\nDex: {roll(1)}\nInt: {roll(1)}\nhar: {roll(0)}")
 
 # How to use return statements in a program
 #Return statements are used in programming to exit a function and, optionally, send a value back to the code that called the function.
+
+# RETUN IS LIKE COPY PASTE
