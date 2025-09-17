@@ -6,3 +6,7 @@ def hello(name):
 #name = input("What is your name\n")
     
 hello("Archi")
+hello("Jinu")
+hello("Manny")
+hello("Isaiah")
+hello("Jesus")
