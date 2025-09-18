@@ -49,25 +49,25 @@
     #print(f"You have a {grade}% that is a C or lower")
 
 
-name = input("What is your name: ")
+#name = input("What is your name: ")
 
-if name == "Ms LaRose":
-    print("you ate the teacher")
-elif name == "Tia" or name == "Ashley":
-    print("You are the TA")
-else:
-    print(f"hello {name}, you are a student")
+#f name == "Ms LaRose":
+    #print("you ate the teacher")
+#elif name == "Tia" or name == "Ashley":
+    #print("You are the TA")
+#else:
+    #print(f"hello {name}, you are a student")
 
 
 
-grade = 72
+#grade = 72
 
-if grade >= 90:
-    if grade is > 100:
-        print("You cheated thast false")
-    else:
-    print(f"You have {grade}% that is an A")
-elif grade >= 80:
-    print(f"You have {grade}% that is a B")
-elif grade >= 70:
-    print(f"You have a {grade}% that is a C or lower")
+#if grade >= 90:
+    #if grade is > 100:
+        #print("You cheated thast false")
+    #else:
+    #print(f"You have {grade}% that is an A")
+#elif grade >= 80:
+    #print(f"You have {grade}% that is a B")
+#elif grade >= 70:
+    #print(f"You have a {grade}% that is a C or lower")
