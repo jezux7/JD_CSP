@@ -34,7 +34,7 @@
 
 # How do you make while loops in python?
 
-""x = 1
+x = 1
 
 while x < 21:
     if x % 2 ==0:
@@ -52,7 +52,7 @@ while d != end:
     print("Duck")
     d += 1
 
-print("Goose")""
+print("Goose")
 
 while True:
     if d == end:
