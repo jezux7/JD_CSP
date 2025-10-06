@@ -5,17 +5,20 @@ int main(void){
     int grade;  // 4 bytes
     float pi = 3.14; // 4 bytes
     double long_pi = 3.1415926358;  // 8 bytes
-    char letter_grade;  // 1 byte
+    char letter_grade; 'A'; // 1 byte
     char name[] = "Jesus";
 // User input
-    printf("What is your grade percentege as a whole number:\n");
+    printf("What is your name:\n");
+    fgets(name, sizeof(name), stdin);
+
+    printf("What is your grade as a whole number\n");
+    scanf(name, sizeof(name), stdin);
     scanf("%d", &grade);
 
-    printf("What is your letter grade:\n");
-    scanf(" %c", &letter_grade);
+printf("What is your grade in letter formart");
 
-    printf("%s did it!\n", name);
-    printf("You have a %d, in the class. That is an %c\n", grade, letter_grade);
+
+
 
     return 0;
 }
