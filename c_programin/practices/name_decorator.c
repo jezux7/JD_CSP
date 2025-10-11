@@ -1,16 +1,23 @@
-// JD Name Decorator
+// JD 7th Name Decorator
 
 #include <stdio.h>
-#include <string.h>
+#include <string>
 
 int main(void){
+    char name[50];
+    char decor1[10];
+    char decor2[10];
 
-    char name[] = "Hi, tell me a name";
+    printf("Hi, tell me a name: ");
+    scanf("%s", name);
 
-    char decor1[] = "Put a sign going right:\n";
+    printf("Please put a sign going to the right: ");
+    scanf("%s", decor1);
 
-    char decor2[] = "Enter another sign going left:\n";
+    printf("Enter another sign going to the left please: ");
+    scanf("%s", decor2);
 
-    printf(decor1 + name + decor2);
+    printf("%s%s%s\n", decor1, name, decor2);
 
+    return 0;
 }
