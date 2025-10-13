@@ -3,16 +3,29 @@
 #include <stdio.h>
 
 int main (void){
+    int age;
 
-    age = int(input("Hi, how old are you? "));
+    printf("Hi, how old are you?: ");
+    scanf("%d", &age);
 
-    if age >= 18;
-    print(f"you are {age} old you can vote");
-    elif age >= 16;
-    print(f"you are {age} old you can drive");
-    elif age >= 15;
-    print(f"you are {age} old you can have a learnesr permit");
-    elif age >= 4;
-    print(f"you are {age} old you can go to school");
+    if (age >= 18){
+        printf("you are old enough you can vote\n")
+    }
+    else if (age >= 16) {
+        printf("Youy are old enough to drive\n")
+    }
+    else if (age >= 16) {
+        printf("Youy are old enough to drive\n")
+    }
+    else if (age >= 16) {
+        printf("Youy are old enough to drive\n")
+    }
+    else if (age >= 15) {
+        printf("Youy are old enugh to get a learnes permit\n")
+        else if (age >= 16) {
+        printf("Youy are old enough to drive\n")
+    }
+    }
+    return 0;
 
 }
