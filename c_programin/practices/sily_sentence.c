@@ -1,32 +1,29 @@
-// JD 7th silly_sentences
+// JD 7th Silly sentence
 
-toys = input("Hi, tell me a toys")
+#include <stdio.h>
+#include <string.h>
 
-musical_instrument = input("Tell me a musical instrument")
+int main(void) {
+    char adjective[20];
+    char noun[20];
+    char verb[20];
+    printf("give an toy: ");
+    scanf("%19s", toy);
+    printf("give a musical instrument: ");
+    scanf("%19s", musical_instrument);
+    printf("tell me a day of the week: ");
+    scanf("%19s", lunch);
+    char story[200] = "If I was principal of my school, I'd put ";
+    strcat(story, toy);
+    strcat(story, " and some ");
+    strcat(story, musical_instrument);
+    strcat(story, " in every ");
+    strcat(story, day);
+    strcat(story, " the caffeteria had to give pizza.");
+    printf("%s\n", story);
 
-noun = input("Tell me a noun")
 
-desert = input("Tell me a desert")
 
-snack = input("Tell me a snack")
-
-verb = input("Tell me a verb")
-
-animals = input("Tell me a animals")
-
-noun2 = input("Tell me a noun")
-
-number = input("Tell me a number")
-
-noun3 = input("Tell me a noun")
-
-number2= input("Tell me an other number")
-
-car = input("Tell me a car")
-
-animals2  = input("Tell me an other animal")
-
-print("If I was principal of my school, I'd put", toys, "and", musical_instrument, "in every", noun, "and have the cafeteria serve", desert, "and", snack, "for lunch. "
-"We would have", verb, "and tell every day, where students can bring", animals, "and", noun2, "to share in class."
-"Students would give teachers homework, like", number, "page book reports about", noun3, "and", number2, "math problems."
-"Recess would last for", car, "hours, and instead of buses, I'd have", car, "and", animals2, "take the kids to and from school.")
+  
+      return 0;
+}
