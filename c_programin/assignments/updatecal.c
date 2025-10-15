@@ -1,11 +1,10 @@
-// JD 7th Update Calculator
+// JD 7th update_calculator.
 
 
 #include <stdio.h>
 
 
-// Function to get user input with a prompt
-float get_user_input(const char *prompt) {
+float user_input(const char *prompt) {
     float value;
     printf("%s", prompt);
     scanf("%f", &value);
@@ -13,15 +12,13 @@ float get_user_input(const char *prompt) {
 }
 
 
-// Function to calculate percentage of income
 float calculate_percent(float income, float expense) {
     return (expense / income) * 100.0f;
 }
 
 
-int main() {
-    // Get all user inputs using the input function
-    float income = get_user_input("Hi, what is your monthly income? $");
+int main(void) {
+    float income = user_input("Hi, what is your monthly income? ");
 
 
     if (income <= 0) {
@@ -29,31 +26,22 @@ int main() {
         return 1;
     }
 
+    float rent = user_input("What is your monthly rent? ");
+    float utilities = user_input("What are your monthly utility bills? ");
+    float groceries = user_input("How much do you spend on groceries each month? ");
+    float transportation = user_input("How much do you spend on transportation each month? ");
 
-    float rent = get_user_input("What is your monthly rent? $");
-    float utilities = get_user_input("What are your monthly utility bills? $");
-    float groceries = get_user_input("How much do you spend on groceries each month? $");
-    float transportation = get_user_input("How much do you spend on transportation each month? $");
-
-
-    // Calculate percentages using the percentage function
     float rent_percent = calculate_percent(income, rent);
     float utilities_percent = calculate_percent(income, utilities);
     float groceries_percent = calculate_percent(income, groceries);
     float transportation_percent = calculate_percent(income, transportation);
 
-
-    // Calculate savings (10% of income)
     float savings_percent = 10.0f;
     float savings = income * (savings_percent / 100.0f);
 
-
-    // Total expenses and leftover
     float total_expenses = rent + utilities + groceries + transportation + savings;
     float leftover = income - total_expenses;
 
-
-    // Print output
     printf("\nYour rent is $%.2f, which is %.1f%% of your income.\n", rent, rent_percent);
     printf("Your utilities are $%.2f, which is %.1f%% of your income.\n", utilities, utilities_percent);
     printf("Your groceries are $%.2f, which is %.1f%% of your income.\n", groceries, groceries_percent);
@@ -63,10 +51,10 @@ int main() {
 
     if (leftover < 0) {
         printf("\nYou are overspending by $%.2f each month.\n", -leftover);
-    } else {
+    } 
+    else {
         printf("\nYou have $%.2f of spending money left each month!\n", leftover);
     }
-
 
     return 0;
 }
